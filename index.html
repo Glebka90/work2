@@ -1,0 +1,1640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./__style/_slider/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./__style/_slider/slick-theme.css" />
+    <link rel="stylesheet" href="./__style/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <header class="header d-flex flex-column">
+            <div class="header-info d-flex justify-content-between align-items-center">
+                <div class="contact d-flex align-items-cente justify-content-between">
+                    <div class="citys d-flex align-items-center ">
+                        <img class="citys-image" src="./__imags/_icon/geo.png" alt="geo">
+                        <div class="dropdown d-flex align-items-center justify-content-around">
+                            <a class="link dropdown__button " href="#" easy-toggle=".dropdown-menu__button"
+                                easy-class="show" easy-rcoe>Выберите город</a> <img class="dropdown__button-icon"
+                                src="./__imags/_icon/arrow-down-sign-to-navigate.png" alt="row">
+                            <div class="dropdown-menu  dropdown-menu__button">
+                                <div class="sity sity1"><a class="link sity__link" easy-toggle=".dropdown-menu__button"
+                                        href="#">Санкт-Петербург</a></div>
+                                <div class="sity sity2"><a class="link sity__link" easy-toggle=".dropdown-menu__button"
+                                        href="#">Москва</a></div>
+                                <div class="sity sity3"><a class="link sity__link" easy-toggle=".dropdown-menu__button"
+                                        href="#">Нижний Новгород</a></div>
+                                <div class="sity sity4"><a class="link sity__link" easy-toggle=".dropdown-menu__button"
+                                        href="#">Росто-на-Дону</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="tel link d-flex align-items-center g-1" href="tel:88007852535"><img class="tel__icon"
+                            src="./__imags/_icon/tel.png" alt="tel">8 800 785-25-35</a>
+                </div>
+                <img class="logo header-logo" src="./__imags/_logo/logo.png" alt="logo">
+                <div class="burger-menu d-none">
+                    <a class="burger-menu__button" href="#">
+                        <span class="burger-menu__line"></span>
+                    </a>
+                    <div class="burger-menu__nav">
+                        <a class="burger__menu_link" href="#">Каталог</a>
+                        <a class="burger__menu_link" href="#">Акции</a>
+                        <a class="burger__menu_link" href="#">Бренды</a>
+                        <a class="burger__menu_link" href="#">Магазины</a>
+                        <a class="burger__menu_link" href="#">О нас</a>
+                        <a class="burger__menu_link" href="#">Доставка и оплата</a>
+                        <a class="burger__menu_link" href="#articles">Статьи</a>
+                        <a class="tel burger__menu_link" href="tel:88007852535">8 800 785-25-35</a>
+                    </div>
+                  
+                    <div class="burger-menu__overlay"></div>
+                </div>
+                <form class="in-reg d-flex align-items-center gap-1" action="icon">
+                    <a class="in link" href="#">Вход</a>
+                    <span class="line in-reg__line"></span>
+                    <a class="reg link" href="#">Регистрация</a>
+                </form>
+                <div class="user-panel d-flex">
+                    <div class="favourites">
+                        <img class="user-panel__icon favourites-image" src="./__imags/_icon/favourites.png" alt="icon">
+                        <span class="favourites-num">23</span>
+                    </div>
+                    <div class="chrt"><img class="user-panel__icon chrt-image" src="./__imags/_icon/chart.png"
+                            alt="icon"></div>
+                    <div class="bag"><img class="user-panel__icon bag-image" src="./__imags/_icon/bag.png" alt="icon">
+                    </div>
+                </div>
+            </div>
+            <div class="header-menu d-flex justify-content-between align-items-center">
+                <nav class="nav d-flex justify-content-around">
+                    <a class="nav__button link" href="#">Каталог</a>
+                    <a class="nav__button link" href="#sail">Акции</a>
+                    <a class="nav__button link" href="#">Бренды</a>
+                    <a class="nav__button link" href="#">Магазины</a>
+                    <a class="nav__button link" href="#">О нас</a>
+                    <a class="nav__button link" href="#">Доставка и оплата</a>
+                    <a class="nav__button link" href="#articles">Статьи</a>
+                </nav>
+                <span class="line header-menu__line"></span>
+                <input class="search" type="search" placeholder="Поиск по сайту">
+            </div>
+    
+
+    
+    </header>
+    <section class="main-slider">
+        <div class="slick-slider">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="slide d-flex align-items-center justify-content-between">
+                    <div class="slide-info d-flex flex-column justify-content-center">
+                        <p class="text ">Суперскидка до 60%</p>
+                        <h1 class="heading slide-info__heading">НА БРИЛЛИАНТЫ</h1>
+                        <button class="button slide-info__button">Подробнее</button>
+                        <img class="slide-info__background" src="./__imags/_background/Union.png" alt="background">
+                    </div>
+                    <img class="slider__image" src="./__imags/_slider/slide1.png" alt="baner">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="slide d-flex align-items-center justify-content-between">
+                    <div class="slide-info d-flex flex-column justify-content-center">
+                        <p class="text ">Суперскидка до 60%</p>
+                        <h1 class="heading slide-info__heading">НА БРИЛЛИАНТЫ</h1>
+                        <button class="button slide-info__button">Подробнее</button>
+                        <img class="slide-info__background" src="./__imags/_background/Union.png" alt="background">
+                    </div>
+                    <img class="slider__image" src="./__imags/_slider/slide1.png" alt="baner">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="slide d-flex align-items-center justify-content-between">
+                    <div class="slide-info d-flex flex-column justify-content-center">
+                        <p class="text ">Суперскидка до 60%</p>
+                        <h1 class="heading slide-info__heading">НА БРИЛЛИАНТЫ</h1>
+                        <button class="button slide-info__button">Подробнее</button>
+                        <img class="slide-info__background" src="./__imags/_background/Union.png" alt="background">
+                    </div>
+                    <img class="slider__image" src="./__imags/_slider/slide1.png" alt="baner">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="popular">
+        <h2 class="heading popular__heading">Популярные категории</h2>
+        <div class="popular-cards d-flex flex-wrap justify-content-between">
+            <div class="popular-card">
+                <img class="popular-card__image" src="./__imags/_popular/pngegg1.png" alt="Популярный товар">
+                <p class="text popular-card__text">Кольца</p>
+            </div>
+            <div class="popular-card">
+                <img class="popular-card__image" src="./__imags/_popular/pngegg2.png" alt="Популярный товар">
+                <p class="text popular-card__text">Серьги</p>
+            </div>
+            <div class="popular-card">
+                <img class="popular-card__image" src="./__imags/_popular/pngegg3.png" alt="Популярный товар">
+                <p class="text popular-card__text">Помолвочные кольца</p>
+            </div>
+            <div class="popular-card">
+                <img class="popular-card__image" src="./__imags/_popular/pngegg4.png" alt="Популярный товар">
+                <p class="text popular-card__text">Браслеты</p>
+            </div>
+            <div class="popular-card">
+                <img class="popular-card__image" src="./__imags/_popular/pngegg5.png" alt="Популярный товар">
+                <p class="text popular-card__text">Колье и подвески</p>
+            </div>
+            <div class="popular-card">
+                <img class="popular-card__image" src="./__imags/_popular/pngegg6.png" alt="Популярный товар">
+                <p class="text popular-card__text">Часы</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="sail" id="sail">
+        <h2 class="heading sail__heading">Распродажа</h2>
+        <div class="sail-buttons d-flex ">
+            <button class="button sail-button" data-go="0">Кольца</button>
+            <button class="button sail-button" data-go="1">Серьги</button>
+            <button class="button sail-button" data-go="2">Браслеты</button>
+            <button class="button sail-button" data-go="3">Часы</button>
+        </div>
+        <!--  -->
+        <div class="single-item">
+            <div class="single-item-blocks d-flex justify-content-between">
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new " src="./__imags/_status/new.png"
+                                        alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new opacity-0"
+                                        src="./__imags/_status/new.png" alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- Slider main container -->
+                            <!-- Additional required wrapper -->
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+
+                            <!--  -->
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new opacity-0"
+                                        src="./__imags/_status/new.png" alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- Slider main container -->
+                            <!-- Additional required wrapper -->
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+
+                            <!--  -->
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new opacity-0"
+                                        src="./__imags/_status/new.png" alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- Slider main container -->
+                            <!-- Additional required wrapper -->
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+
+                            <!--  -->
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-item-blocks d-flex justify-content-between">
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new opacity-0"
+                                        src="./__imags/_status/new.png" alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- Slider main container -->
+                            <!-- Additional required wrapper -->
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+
+                            <!--  -->
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new opacity-0"
+                                        src="./__imags/_status/new.png" alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- Slider main container -->
+                            <!-- Additional required wrapper -->
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+
+                            <!--  -->
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new opacity-0"
+                                        src="./__imags/_status/new.png" alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- Slider main container -->
+                            <!-- Additional required wrapper -->
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+
+                            <!--  -->
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new opacity-0"
+                                        src="./__imags/_status/new.png" alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- Slider main container -->
+                            <!-- Additional required wrapper -->
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+
+                            <!--  -->
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-item-blocks d-flex justify-content-between">
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new opacity-0"
+                                        src="./__imags/_status/new.png" alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- Slider main container -->
+                            <!-- Additional required wrapper -->
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+
+                            <!--  -->
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new opacity-0"
+                                        src="./__imags/_status/new.png" alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- Slider main container -->
+                            <!-- Additional required wrapper -->
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+
+                            <!--  -->
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new opacity-0"
+                                        src="./__imags/_status/new.png" alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- Slider main container -->
+                            <!-- Additional required wrapper -->
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+
+                            <!--  -->
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new opacity-0"
+                                        src="./__imags/_status/new.png" alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- Slider main container -->
+                            <!-- Additional required wrapper -->
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+
+                            <!--  -->
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-item-blocks d-flex justify-content-between">
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new opacity-0"
+                                        src="./__imags/_status/new.png" alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- Slider main container -->
+                            <!-- Additional required wrapper -->
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+
+                            <!--  -->
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new opacity-0"
+                                        src="./__imags/_status/new.png" alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- Slider main container -->
+                            <!-- Additional required wrapper -->
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+
+                            <!--  -->
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new opacity-0"
+                                        src="./__imags/_status/new.png" alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- Slider main container -->
+                            <!-- Additional required wrapper -->
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+
+                            <!--  -->
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sail-slider d-flex">
+                    <div class="sail-slide__blocks">
+                        <div class="sail-slide__block">
+                            <div class="sail-info__blocks d-flex  position-relative">
+                                <div class="sail-status-block d-flex">
+                                    <img class="status__image status__image_new opacity-0"
+                                        src="./__imags/_status/new.png" alt="new">
+                                    <img class="status__image status__image_hit " src="./__imags/_status/hit.png"
+                                        alt="hit">
+                                    <img class="status__image status__image_sale" src="./__imags/_status/sale.png"
+                                        alt="sale">
+                                </div>
+                                <div class="sail-use__block d-flex flex-column position-absolute">
+                                    <svg class="follow" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.94668e-08 5.40001C-0.000248434 3.95035 0.582385 2.56146 1.61681 1.54584C2.65124 0.53022 4.05058 -0.026834 5.5 1.1704e-05C7.21732 -0.0091083 8.85599 0.719186 10 2.00001C11.144 0.719186 12.7827 -0.0091083 14.5 1.1704e-05C15.9494 -0.026834 17.3488 0.53022 18.3832 1.54584C19.4176 2.56146 20.0002 3.95035 20 5.40001C20 10.756 13.621 14.8 10 18C6.387 14.773 7.94668e-08 10.76 7.94668e-08 5.40001Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+                                    <svg class="union" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.0044 1.5C11.0044 0.947715 10.5567 0.5 10.0044 0.5C9.45211 0.5 9.00439 0.947715 9.00439 1.5V3.54989C8.04476 3.64609 7.12848 3.87731 6.27405 4.20772L5.4446 3.05037C5.12289 2.60146 4.49817 2.49836 4.04927 2.82007C3.60036 3.14179 3.49726 3.76651 3.81898 4.21541L4.45792 5.10695C3.92702 5.43178 3.434 5.79271 2.98539 6.17708C1.24791 7.6658 0 9.66836 0 11.5C0 13.3316 1.24791 15.3342 2.98539 16.8229C4.76222 18.3453 7.23586 19.5 10 19.5C12.7639 19.5 15.2376 18.3462 17.0145 16.8241C18.7522 15.3355 20 13.333 20 11.5C20 9.66702 18.7522 7.66444 17.0145 6.17591C16.6848 5.89346 16.331 5.62368 15.9559 5.37161L16.6253 4.43759C16.947 3.98869 16.844 3.36398 16.3951 3.04225C15.9462 2.72053 15.3214 2.82362 14.9997 3.27252L14.1918 4.39975C13.2102 3.96793 12.1376 3.66528 11.0044 3.55075V1.5ZM10 7.5C7.79086 7.5 6 9.29086 6 11.5C6 13.7091 7.79086 15.5 10 15.5C12.2091 15.5 14 13.7091 14 11.5C14 9.29086 12.2091 7.5 10 7.5Z"
+                                            fill="#C9C9C9" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- Slider main container -->
+                            <!-- Additional required wrapper -->
+                            <div class="slider single-item-s">
+                                <!-- Slides -->
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+                                <div class="swiper-slide d-flex justify-content-center"> <img class="sail__image"
+                                        src="./__imags/_sale/img1.png" alt="img"></div>
+
+                            </div>
+
+                            <!--  -->
+                            <div class="sail-produt">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-center">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <p class="text sail-info-product">Стильное кольцо из белого золота
+                                    c бриллиантами</p>
+                            </div>
+                            <div class="card-options flex-column">
+                                <select class="card-option option-size" value="size">
+                                    <option class="option-select" name="size-1" id="14">Размер: 14</option>
+                                    <option class="option-select" name="size-2" id="15">Размер: 15</option>
+                                    <option class="option-select" name="size-3" id="16">Размер: 16</option>
+                                    <option class="option-select" name="size-4" id="17">Размер: 17</option>
+                                </select>
+                                <select class="card-option option-metal" value="metal">
+                                    <option class="option-select" name="white-gold" id="white-gold">Белое-золото
+                                    </option>
+                                    <option class="option-select" name="yellow" id="yellow-gold">Желтое-золото
+                                    </option>
+                                    <option class="option-select" name="silver" id="silver">Серебро</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="banners d-flex justify-content-between">
+        <h2 class="banners__heading d-none">banners</h2>
+        <div class="banner-block"><img class="banner" src="./__imags/_baner/bnr1.png" alt="banner"></div>
+        <div class="banner-block"> <img class="banner" src="./__imags/_baner/bnr2.png" alt="banner"></div>
+        <div class="banner-block"><img class="banner" src="./__imags/_baner/bnr3.png" alt="banner"></div>
+    </section>
+    <section class="product-day">
+        <h2 class="heading product-day__heading">Товар дня</h2>
+        <div class="slider product-day-items">
+            <div class="product-day__slide d-flex justify-content-around">
+                <div class="slider product-day-item d-flex">
+                    <div class="d-flex flex-column">
+                        <div class="product-day-block d-flex ">
+                            <img class="product-day__image product__image_new " src="./__imags/_status/new.png"
+                                alt="new">
+                            <img class="product-day__image product__image_hit " src="./__imags/_status/hit.png"
+                                alt="hit">
+                            <img class="product-day__image product__image_sale" src="./__imags/_status/sale.png"
+                                alt="sale">
+                        </div>
+                        <img class="product-day-slide__image" src="./__imags/_product-day/img1.png" alt="slide">
+                    </div>
+                    <div class=" d-flex flex-column">
+                        <div class="product-day-block d-flex ">
+                            <img class="product-day__image product__image_new " src="./__imags/_status/new.png"
+                                alt="new">
+                            <img class="product-day__image product__image_hit " src="./__imags/_status/hit.png"
+                                alt="hit">
+                            <img class="product-day__image product__image_sale" src="./__imags/_status/sale.png"
+                                alt="sale">
+                        </div>
+                        <img class="product-day-slide__image" src="./__imags/_product-day/img1.png" alt="slide">
+                    </div>
+                </div>
+                <div class="product-day-ui">
+                    <div class="product-day-info">
+                        <div class="heading product-day__heading">Кольцо из золота с бриллиантами</div>
+                        <div class="sail">
+                            <div class="rating d-flex">
+                                <div class="stars d-flex">
+                                    <img class="star" src="./__imags/_product-day/Star1.png" alt="start">
+                                    <img class="star" src="./__imags/_product-day/Star1.png" alt="start">
+                                    <img class="star" src="./__imags/_product-day/Star1.png" alt="start">
+                                    <img class="star" src="./__imags/_product-day/Star1.png" alt="start">
+                                    <img class="star" src="./__imags/_product-day/Star5.png" alt="start">
+                                </div>
+                                <div class="rating-num">4,2</div>
+                            </div>
+                            <div class="article">Артикул: 1012076</div>
+                            <div class="sail-produt d-flex">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-end">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <div class="timer d-flex align-items-center justify-content-around" id="timer">
+                                    <div class="timer__block d-flex flex-column align-items-center">
+                                        <div class="timer__item timer__hours hours" id="hours">00 </div>
+                                        <p class="text timer__text">Часы</p>
+                                    </div>:
+                                    <div class="timer__block d-flex flex-column align-items-center">
+                                        <div class="timer__item timer__minutes minutes" id="minutes">00 </div>
+                                        <p class="text timer__text">Минуты</p>
+                                    </div>:
+                                    <div class="timer__block d-flex flex-column align-items-center">
+                                        <div class="timer__item timer__seconds seconds" id="seconds">00 </div>
+                                        <p class="text timer__text">Секунды</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="product-day-info__line"></span>
+                        <div class="product-day-options">
+                            <div class="option-color d-flex flex-column">
+                                <h3 class="text option-color__heading">цвет</h3>
+                                <div class="color-palette d-flex align-items-center">
+                                    <div class="color-circle gray" tabindex="0"></div>
+                                    <div class="color-circle yellow" tabindex="0"></div>
+                                    <div class="color-circle orange" tabindex="0"></div>
+                                    <div class="color-circle green" tabindex="0"></div>
+                                </div>
+                            </div>
+                            <div class="option-sizes">
+                                <div class="hint d-flex align-items-center">
+                                    <h3 class="text  option-size__heading">размер</h3>
+                                    <div class="hint-window">
+                                        <p class="text hint__simbol d-flex align-items-center justify-content-center">
+                                            ? </p>
+
+                                        <p class="text hint__text d-flex justify-content-center align-items-center">
+                                            Также как существующая теория напрямую зависит
+                                            от экономической
+                                            целесообразности принимаемых решений.</p>
+                                    </div>
+                                </div>
+                                <div class="option-size d-flex">
+                                    <p class="option-size__size" tabindex="0">16.5</p>
+                                    <p class="option-size__size" tabindex="0">17.5</p>
+                                    <p class="option-size__size" tabindex="0">18.5</p>
+                                    <p class="option-size__size" tabindex="0">19</p>
+                                    <p class="option-size__size" tabindex="0">19.5</p>
+                                    <p class="option-size__size" tabindex="0">19.5</p>
+                                    <p class="option-size__size" tabindex="0">18.5</p>
+                                    <p class="option-size__size" tabindex="0">19</p>
+                                    <p class="option-size__size_opacity">19.5</p>
+                                    <p class="option-size__size_opacity">19.5</p>
+                                </div>
+
+                            </div>
+                            <div class="option-buttons d-flex">
+                                <div class="buttons">
+                                    <button class="button text  option-button">В корзину</button>
+                                    <button class="button text  option-button option-button_color">Купить в 1
+                                        клик</button>
+                                </div>
+                                <div class="option-buttons-links d-flex flex-column">
+                                    <a class="link option-buttons-link d-flex" href="#"><img class="option-buttons-icon"
+                                            src="./__imags/_icon/product-day/heart_fill.png" alt="icon">
+                                        Сохранить</a>
+                                    <a class="link option-buttons-link d-flex" href="#"><img class="option-buttons-icon"
+                                            src="./__imags/_icon/product-day/Group2.png" alt="icon"> Сравнить</a>
+                                    <a class="link option-buttons-link d-flex" href="#"><img class="option-buttons-icon"
+                                            src="./__imags/_icon/product-day/share.png" alt="icon"> Поделиться</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-day__slide d-flex justify-content-around">
+                <div class="slider product-day-item d-flex">
+                    <div class="d-flex flex-column">
+                        <div class="product-day-block d-flex ">
+                            <img class="product-day__image product__image_new " src="./__imags/_status/new.png"
+                                alt="new">
+                            <img class="product-day__image product__image_hit " src="./__imags/_status/hit.png"
+                                alt="hit">
+                            <img class="product-day__image product__image_sale" src="./__imags/_status/sale.png"
+                                alt="sale">
+                        </div>
+                        <img class="product-day-slide__image" src="./__imags/_product-day/img1.png" alt="slide">
+                    </div>
+                    <div class=" d-flex flex-column">
+                        <div class="product-day-block d-flex ">
+                            <img class="product-day__image product__image_new " src="./__imags/_status/new.png"
+                                alt="new">
+                            <img class="product-day__image product__image_hit " src="./__imags/_status/hit.png"
+                                alt="hit">
+                            <img class="product-day__image product__image_sale" src="./__imags/_status/sale.png"
+                                alt="sale">
+                        </div>
+                        <img class="product-day-slide__image" src="./__imags/_product-day/img1.png" alt="slide">
+                    </div>
+                </div>
+                <div class="product-day-ui">
+                    <div class="product-day-info">
+
+                        <div class="heading product-day__heading">Кольцо из золота с бриллиантами</div>
+                        <div class="sail">
+                            <div class="rating d-flex">
+                                <div class="stars d-flex">
+                                    <img class="star" src="./__imags/_product-day/Star1.png" alt="start">
+                                    <img class="star" src="./__imags/_product-day/Star1.png" alt="start">
+                                    <img class="star" src="./__imags/_product-day/Star1.png" alt="start">
+                                    <img class="star" src="./__imags/_product-day/Star1.png" alt="start">
+                                    <img class="star" src="./__imags/_product-day/Star5.png" alt="start">
+                                </div>
+                                <div class="rating-num">4,2</div>
+                            </div>
+                            <div class="article">Артикул: 1012076</div>
+                            <div class="sail-produt d-flex">
+                                <div class="sail-prices__block d-flex align-items-center justify-content-between">
+                                    <div class="sail-prices d-flex align-items-end">
+                                        <p class="text sail-price">41 000 ₽</p>
+                                        <p class="text sail-old-price">65 000 ₽</p>
+                                    </div>
+                                    <img class="sail-discount__image" src="./__imags/_sale/dis45.png" alt="discount">
+                                </div>
+                                <div class="timer d-flex align-items-center justify-content-around" id="timer2">
+                                    <div class="timer__block d-flex flex-column align-items-center">
+                                        <div class="timer__item timer__hours hours" id="hours2">00 </div>
+                                        <p class="text timer__text">Часы</p>
+                                    </div>:
+                                    <div class="timer__block d-flex flex-column align-items-center">
+                                        <div class="timer__item timer__minutes minutes" id="minutes2">00 </div>
+                                        <p class="text timer__text">Минуты</p>
+                                    </div>:
+                                    <div class="timer__block d-flex flex-column align-items-center">
+                                        <div class="timer__item timer__seconds seconds" id="seconds2">00 </div>
+                                        <p class="text timer__text">Секунды</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="product-day-info__line"></span>
+                        <div class="product-day-options">
+                            <div class="option-color d-flex flex-column">
+                                <h3 class="text option-color__heading">цвет</h3>
+                                <div class="color-palette d-flex align-items-center">
+                                    <div class="color-circle gray" tabindex="0"></div>
+                                    <div class="color-circle yellow" tabindex="0"></div>
+                                    <div class="color-circle orange" tabindex="0"></div>
+                                    <div class="color-circle green" tabindex="0"></div>
+                                </div>
+                            </div>
+                            <div class="option-sizes">
+                                <div class="hint d-flex align-items-center">
+                                    <h3 class="text  option-size__heading">размер</h3>
+                                    <div class="hint-window">
+                                        <p class="text hint__simbol d-flex align-items-center justify-content-center">
+                                            ? </p>
+                                        <p class="text hint__text d-flex justify-content-center align-items-center">
+                                            Также как существующая теория напрямую зависит
+                                            от экономической
+                                            целесообразности принимаемых решений.</p>
+                                    </div>
+                                </div>
+                                <div class="option-size d-flex">
+                                    <p class="option-size__size" tabindex="0">16.5</p>
+                                    <p class="option-size__size" tabindex="0">17.5</p>
+                                    <p class="option-size__size" tabindex="0">18.5</p>
+                                    <p class="option-size__size" tabindex="0">19</p>
+                                    <p class="option-size__size" tabindex="0">19.5</p>
+                                    <p class="option-size__size" tabindex="0">19.5</p>
+                                    <p class="option-size__size" tabindex="0">18.5</p>
+                                    <p class="option-size__size" tabindex="0">19</p>
+                                    <p class="option-size__size_opacity">19.5</p>
+                                    <p class="option-size__size_opacity">19.5</p>
+                                </div>
+
+                            </div>
+                            <div class="option-buttons d-flex">
+                                <div class="buttons">
+                                    <button class="button text  option-button">В корзину</button>
+                                    <button class="button text  option-button option-button_color">Купить в 1
+                                        клик</button>
+                                </div>
+                                <div class="option-buttons-links d-flex flex-column">
+                                    <a class="link option-buttons-link d-flex" href="#"><img class="option-buttons-icon"
+                                            src="./__imags/_icon/product-day/heart_fill.png" alt="icon">
+                                        Сохранить</a>
+                                    <a class="link option-buttons-link d-flex" href="#"><img class="option-buttons-icon"
+                                            src="./__imags/_icon/product-day/Group2.png" alt="icon"> Сравнить</a>
+                                    <a class="link option-buttons-link d-flex" href="#"><img class="option-buttons-icon"
+                                            src="./__imags/_icon/product-day/share.png" alt="icon"> Поделиться</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="articles" id="articles">
+        <div class="heading-block d-flex align-items-center justify-content-between">
+            <h2 class="heading articles__heading">Статьи</h2>
+            <a class="link link-article" href="#">Чиать все
+                <img class="link-article__image" src="./__imags/_icon/Arrow2.png" alt="">
+            </a>
+        </div>
+        <div class="article-blocks d-flex justify-content-between">
+            <div class="article-block">
+                <img class="article-img" src="./__imags/_article/img1.png" alt="картинка">
+                <p class="date">21 сентября 2021</p>
+                <p class="text article-text">Обручальные кольца: тренды 2021</p>
+            </div>
+            <div class="article-block">
+                <img class="article-img" src="./__imags/_article/img2.png" alt="картинка">
+                <p class="date">25 сентября 2021</p>
+                <p class="text article-text">Главные ювелирные тренды года</p>
+            </div>
+            <div class="article-block">
+                <img class="article-img" src="./__imags/_article/img3.png" alt="картинка">
+                <p class="date">21 сентября 2021s</p>
+                <p class="text article-text">Жемчуг: 7 малоизвестных фактов о культовом украшении</p>
+            </div>
+            <div class="article-block">
+                <img class="article-img" src="./__imags/_article/img4.png" alt="картинка">
+                <p class="date">21 сентября 2021</p>
+                <p class="text article-text">Как отличить золото от подделки: 10 практических советов</p>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/easy-toggler@2.2.7"></script>
+    <!-- slider -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="./__js/_slider/slick.min.js"></script>
+    <script src="./__js/slick.js"></script>
+    <!--slider  -->
+    <script src="main.js"></script>
+</body>
+
+</html>
